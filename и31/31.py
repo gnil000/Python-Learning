@@ -9,7 +9,6 @@ def findSum(numsList, length):
             for j in range(n, length):
                 suma += numsList[j]
 
-                # if((suma//50) % 2 != 0):
                 if(suma % 100 == 50):
                     result.append(suma)
                 suma -= numsList[j]
